@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 
 export default function RepairsManager() {
@@ -29,7 +31,7 @@ export default function RepairsManager() {
   };
 
   return (
-    <div style={{ padding: '24px', fontFamily: 'sans-serif', maxWidth: '800px', margin: '0 auto', background: '#f9f9f9', borderRadius: '8px' }}>
+    <div style={{ padding: '24px', fontFamily: 'sans-serif', maxWidth: '800px', margin: '0 auto', background: '#f9f9f9', borderRadius: '8px', minHeight: '100vh' }}>
       <h2 style={{ color: '#111', borderBottom: '2px solid #ddd', paddingBottom: '8px' }}>
         Digital Calchaquí - Órdenes de Reparación
       </h2>
